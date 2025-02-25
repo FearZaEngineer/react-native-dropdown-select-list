@@ -37,7 +37,9 @@ const SelectList: React.FC<SelectListProps> = ({
   onSelect = () => {},
   save = 'key',
   dropdownShown = false,
-  fontFamily
+  fontFamily,
+  flatListProps = {} 
+
 }) => {
   const oldOption = useRef(null);
   const [_firstRender, _setFirstRender] = useState<boolean>(true);
@@ -225,6 +227,7 @@ const SelectList: React.FC<SelectListProps> = ({
             initialNumToRender={15}
             maxToRenderPerBatch={15}
             windowSize={10}
+            {...flatListProps}
           />
           {filteredData.length === 0 && (
             <TouchableOpacity
