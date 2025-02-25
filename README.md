@@ -65,14 +65,15 @@ This fork by **FearZaEngineer** is an edit of the original package and introduce
 # 🔌 Installation
 
 ```sh
-$ npm install github:FearZaEngineer/react-native-dropdown-select-list#my-custom-selectlist
+$ npm install react-native-dropdown-select-list@github:FearZaEngineer/react-native-dropdown-select-list#my-custom-selectlist
+
 
 ```
 
 OR
 
 ```sh
-$ yarn add github:FearZaEngineer/react-native-dropdown-select-list#my-custom-selectlist
+$ yarn add react-native-dropdown-select-list@github:FearZaEngineer/react-native-dropdown-select-list#my-custom-selectlist
 
 ```
 
